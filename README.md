@@ -34,6 +34,7 @@ SCREENSHOTS
 <img width="1918" height="1137" alt="Screenshot 2026-07-25 170305" src="https://github.com/user-attachments/assets/d32158b0-bf5e-40b6-b91b-542ab16fdbc7" />
 <img width="1918" height="1140" alt="Screenshot 2026-07-25 170326" src="https://github.com/user-attachments/assets/b12e8971-7379-427c-abe1-ee4207cecf8c" />
 <img width="1912" height="1140" alt="Screenshot 2026-07-25 170348" src="https://github.com/user-attachments/assets/4c8ec281-94cc-4f57-9a5c-f606de910489" />
+<img width="927" height="886" alt="Screenshot 2026-07-25 200149" src="https://github.com/user-attachments/assets/42e68d39-fc85-4a37-8ffd-b4ae78ccf563" />
 
 AUTHOR NAME/ACADEMIC DETAILS
 
