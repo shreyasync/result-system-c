@@ -43,5 +43,165 @@ Course / Semester: B.Tech CSE, 3rd Semester
 Roll Number: 2508100100123
 Institution: GN Group of Institute
 
+INSTALLATION GUIDE
+
+What You Need Before Starting
+1. A Computer
+This can be a Windows PC, a Mac, or a Linux computer. The program works on all of them.
+
+2. A C Compiler
+You need a program that can turn my C code into a working application. Don't worry, I'll show you how to get one.
+
+3. Basic Terminal Knowledge
+You should know how to open the command prompt or terminal on your computer. I'll explain this too.
+
+4. About 5 Minutes of Your Time
+The whole setup process is quick. It shouldn't take more than a few minutes.
+
+Option 1: Windows Installation
+Windows users have a few different ways to compile C programs. I'll show you the easiest ones.
+
+Method A: Using MinGW (Recommended for Beginners)
+MinGW is a free C compiler that works well on Windows. Here's how to set it up:
+
+Step 1: Download MinGW
+Open your web browser
+
+Go to: https://sourceforge.net/projects/mingw/
+
+Click on the green "Download" button
+
+Wait for the download to finish (it's about 100 MB)
+
+Step 2: Install MinGW
+Double-click the downloaded file (mingw-get-setup.exe)
+
+Click "Install" when the setup window opens
+
+Keep clicking "Next" and accept the default options
+
+Wait for the installation to complete
+
+Click "Finish" when done
+
+Step 3: Install gcc (the compiler)
+After installation, you'll see a window called "MinGW Installation Manager"
+
+In the left panel, click on "Basic Setup"
+
+In the right panel, look for "mingw32-gcc-g++"
+
+Right-click on it and select "Mark for Installation"
+
+Also look for "mingw32-gdb" and mark it too (this is for debugging)
+
+Click on "Installation" in the top menu
+
+Click "Apply Changes"
+
+Click "Apply" in the pop-up window
+
+Wait for it to download and install
+
+Step 4: Add MinGW to Your System Path
+This step is important. It tells Windows where to find the compiler.
+
+Press the Windows key and type "Environment Variables"
+
+Click on "Edit the system environment variables"
+
+Click the "Environment Variables" button
+
+In the bottom section (System Variables), find "Path"
+
+Click on it and press "Edit"
+
+Click "New"
+
+Type: C:\MinGW\bin
+
+Click OK on all the windows
+
+Step 5: Test the Installation
+Press Windows key, type "cmd", and press Enter
+
+In the black window that opens, type: gcc --version
+
+Press Enter
+
+You should see some text about GCC version. If you see an error, something went wrong.
+
+Step 6: Download My Code
+Go to my GitHub repository: https://github.com/yourusername/student-result-system
+
+Click the green "Code" button
+
+Click "Download ZIP"
+
+Save the file to your computer
+
+Extract the ZIP file (right-click and select "Extract All")
+
+Step 7: Compile the Program
+Open Command Prompt again
+
+Navigate to where you extracted the files. For example:
+
+text
+cd C:\Users\YourName\Downloads\student-result-system-main
+(Replace "YourName" with your actual username)
+
+Now compile the program:
+
+text
+gcc student_result.c -o student_result.exe
+If you see no errors, the compilation worked!
+
+Step 8: Run the Program
+In the same command prompt, type:
+
+text
+student_result.exe
+The program will start working!
+
+Method B: Using Code::Blocks (Easier but Slower)
+If you want a point-and-click solution, try Code::Blocks. It's an IDE (Integrated Development Environment) that includes a compiler.
+
+Step 1: Download Code::Blocks
+Go to: http://www.codeblocks.org/downloads/26
+
+Look for "codeblocks-20.03mingw-setup.exe" and download it
+
+This version includes the compiler, so you don't need to install MinGW separately
+
+Step 2: Install Code::Blocks
+Double-click the downloaded file
+
+Click "Next" through the installation
+
+Accept the license agreement
+
+Keep the default installation location
+
+Click "Install"
+
+Wait for it to finish
+
+Click "Finish"
+
+Step 3: Open and Run My Code
+Open Code::Blocks from your Start menu
+
+Click "File" → "Open"
+
+Navigate to where you downloaded my code
+
+Select "student_result.c"
+
+Click "Open"
+
+Click the green "Build and Run" button (it looks like a play button with a gear)
+
+The program will compile and run automatically
 
 
